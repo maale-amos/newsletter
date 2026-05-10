@@ -1,52 +1,54 @@
 # עיתון מעלה עמוס · maale-newsletter
 
-מערכת כתיבה ועריכה שיתופית לוועד התקשורת של מעלה עמוס.
+מערכת כתיבה ועריכה לוועד התקשורת של מעלה עמוס.
 
-## ארכיטקטורה (עוקפת NetFree)
+🔗 **חי ב:** https://maale-amos.github.io/newsletter/
 
-```
-GitHub Pages (Frontend)  ──────► Apps Script (Backend)  ──────► Drive + Gemini
-       (לא חסום)                  (רץ ב-Google)                  (לא עובר במחשב)
-                                       │
-                                       └──► Yemot API ──► שלוחה /3 בקו 0772251404
-                                            (העלאה ישירה,
-                                             ללא הורדה למחשב)
-```
-
-## שלבי הפעלה
-
-### 1. פריסת ה-Apps Script
-1. ב-`apps-script/Code.gs` יש את הקוד.
-2. עבור ל-https://script.google.com → New project → הדבק את הקוד.
-3. Deploy → New deployment → Web App
-   - Execute as: **Me**
-   - Who has access: **Anyone with link**
-4. העתק את ה-`/exec` URL.
-
-### 2. הגדרת ה-Frontend
-1. פתח את האתר ב-https://yossi6742853.github.io/maale-newsletter
-2. בכניסה ראשונה הוא ישאל אותך ל-API URL — הדבק את ה-URL מהשלב הקודם.
-3. נשמר ב-localStorage, לא צריך שוב.
-
-### 3. שימוש
-- **כתבה חדשה:** editor.html → כתוב → AI עוזר (Gemini) להגה"ה/קיצור/הצעת תמונות
-- **שמירה:** אוטומטית ל-Drive בתיקייה `מעלה-עמוס-עיתון/כתבות/`
-- **תמונות:** gallery.html → העלה → תיוג AI אוטומטי
-- **PDF:** כפתור "ייצוא PDF" → נשמר ב-`PDF/`
-- **פודקאסט:** "קריא לאודיו" → סקריפט נכתב, נשמר ב-`אודיו/` → ה-listener במחשב יומר ל-MP3 ויעלה ל-/3
+## ארכיטקטורה — פורסת לחלוטין על GitHub Pages
+- **אין Apps Script.** האתר לא תלוי בשום שירות חיצוני שעלול להיחסם.
+- **אין Backend.** כל הנתונים בדפדפן (localStorage) + קבצי JSON ב-repo.
+- **AI אופציונלי:** הזן Gemini API Key פעם אחת בדפדפן — הקריאה ישירה מהדפדפן ל-Gemini.
+- **PDF:** ייצוא דרך הדפסה (Ctrl+P → Save as PDF), ללא תלות בספרייה חיצונית.
 
 ## תכונות
+- כתיבת כתבות עשירה (RTL, Heebo, Frank Ruhl Libre)
+- עורך עם כלים בסיסיים: כותרות, רשימות, תמונות
+- שמירה אוטומטית ל-localStorage כל 5 שניות
+- בנק תמונות עם תיוג והקטנה אוטומטית (1200px)
+- חיפוש מיידי בכתבות ובתמונות
+- ייצוא PDF
+- AI דרך Gemini Flash (אופציונלי, מצריך API key חינמי)
 
-| תכונה | סטטוס |
-|--------|---------|
-| עורך כתבות עם RTL+Heebo+Frank Ruhl | ✓ |
-| AI: הגה"ה/קיצור/הרחבה/כותרת/תמונות (Gemini) | ✓ |
-| AI: סקריפט פודקאסט → /3 | ✓ |
-| בנק תמונות עם תיוג AI | ✓ |
-| PDF Export | ✓ |
-| ארכיון גיליונות | TODO |
-| חלוקה ל-WhatsApp | TODO |
+## מבנה
+```
+index.html       רשימת כתבות
+editor.html      עורך כתבה + AI
+gallery.html     בנק תמונות
+archive.html     ארכיון (placeholder)
+data/
+  articles.json  זרע ראשוני (ריק)
+  photos.json    זרע ראשוני (ריק)
+assets/
+  css/main.css
+  js/
+    api.js       layer של נתונים (localStorage + JSON)
+    index.js     רשימת כתבות
+    editor.js    עורך
+    gallery.js   גלריית תמונות
+```
 
-## הרשאות
-- יוסף שניידר (`6742853@gmail.com`) — בעלים
-- עמנואל רקטובסקי (`e0548451402@gmail.com`) — מורשה לערוך (לפי הזיכרון)
+## איך זה עובד
+1. בכניסה ראשונה — האתר טוען את `data/articles.json` ו-`data/photos.json` (ריקים בהתחלה).
+2. כל שינוי נשמר אוטומטית ל-localStorage של הדפדפן.
+3. נתונים מתמשכים בין רענונים, אבל מקומיים לדפדפן הזה.
+4. לסנכרון בין מכשירים — ייצוא/ייבוא JSON ידני (תכונה עתידית).
+5. AI: בלחיצה על "הגה"ה"/"קיצור"/וכו', האתר ישאל פעם אחת ל-Gemini API key, ישמור מקומית, ויקרא ישירות ל-API של Gemini.
+
+### Gemini API Key חינמי
+- היכנס ל-https://aistudio.google.com/app/apikey
+- צור API Key
+- הזן באתר בפעם הראשונה שתלחץ על AI
+
+## הרשאות עריכה
+- יוסף שניידר — admin
+- עמנואל רקטובסקי — מורשה (לפי project memory)
