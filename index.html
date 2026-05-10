@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>עיתון מעלה עמוס</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;900&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="./"><i class="bi bi-newspaper"></i> עיתון מעלה עמוס</a>
+    <div class="navbar-nav me-auto">
+      <a class="nav-link" href="./">בית</a>
+      <a class="nav-link" href="editor.html">כתיבת כתבה</a>
+      <a class="nav-link" href="gallery.html">בנק תמונות</a>
+      <a class="nav-link" href="archive.html">ארכיון</a>
+    </div>
+    <div id="userBadge" class="ms-2"></div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container py-5">
+    <h1 class="display-4 fw-bold">העיתון הקהילתי של מעלה עמוס</h1>
+    <p class="lead">מערכת כתיבה, עריכה ופרסום משותפת לחברי ועד התקשורת</p>
+    <div class="mt-4">
+      <a href="editor.html" class="btn btn-light btn-lg"><i class="bi bi-pencil-square"></i> כתבה חדשה</a>
+      <a href="gallery.html" class="btn btn-outline-light btn-lg ms-2"><i class="bi bi-images"></i> תמונות</a>
+    </div>
+  </div>
+</header>
+
+<main class="container py-5">
+  <div class="row mb-4">
+    <div class="col-md-8">
+      <h2 class="h3 mb-3">כתבות בעריכה</h2>
+    </div>
+    <div class="col-md-4 text-end">
+      <input type="search" class="form-control" id="searchBox" placeholder="חיפוש כתבה...">
+    </div>
+  </div>
+
+  <div id="articlesList" class="row g-3">
+    <div class="col-12 text-center text-muted py-5"><div class="spinner-border"></div><div class="mt-2">טוען...</div></div>
+  </div>
+</main>
+
+<footer class="text-center py-4 mt-5 border-top">
+  <small class="text-muted">בס"ד · עיתון מעלה עמוס · בית התלמוד</small>
+</footer>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>עורך כתבה - עיתון מעלה עמוס</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;900&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="./"><i class="bi bi-newspaper"></i> עיתון מעלה עמוס</a>
+    <div class="navbar-nav me-auto">
+      <a class="nav-link" href="./">בית</a>
+      <a class="nav-link active" href="editor.html">כתיבה</a>
+      <a class="nav-link" href="gallery.html">תמונות</a>
+      <a class="nav-link" href="archive.html">ארכיון</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container-fluid py-3">
+<div class="row">
+  <!-- Editor column -->
+  <div class="col-lg-8">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="d-flex gap-2 mb-3">
+          <input type="text" class="form-control form-control-lg" id="title" placeholder="כותרת הכתבה...">
+          <select id="category" class="form-select" style="max-width: 180px">
+            <option value="">קטגוריה</option>
+            <option>ביטחון ובטיחות</option>
+            <option>תשתיות ופיתוח</option>
+            <option>אירועי קהילה</option>
+            <option>תורה ושיעורים</option>
+            <option>חינוך</option>
+            <option>בריאות</option>
+            <option>פרסומת והודעות</option>
+          </select>
+        </div>
+        <div class="btn-toolbar mb-2 gap-1">
+          <button class="btn btn-sm btn-outline-secondary" onclick="format('bold')"><i class="bi bi-type-bold"></i></button>
+          <button class="btn btn-sm btn-outline-secondary" onclick="format('italic')"><i class="bi bi-type-italic"></i></button>
+          <button class="btn btn-sm btn-outline-secondary" onclick="format('formatBlock','h2')">כותרת</button>
+          <button class="btn btn-sm btn-outline-secondary" onclick="format('formatBlock','h3')">כותרת משנה</button>
+          <button class="btn btn-sm btn-outline-secondary" onclick="format('insertUnorderedList')"><i class="bi bi-list-ul"></i></button>
+          <button class="btn btn-sm btn-outline-secondary" onclick="insertImagePlaceholder()"><i class="bi bi-image"></i> תמונה</button>
+          <button class="btn btn-sm btn-outline-secondary" onclick="format('removeFormat')"><i class="bi bi-eraser"></i></button>
+        </div>
+        <div id="body" class="editor-body" contenteditable="true" placeholder="התחל לכתוב כאן..."></div>
+      </div>
+      <div class="card-footer bg-white d-flex gap-2">
+        <button class="btn btn-success" onclick="saveArticle()"><i class="bi bi-cloud-upload"></i> שמור ל-Drive</button>
+        <button class="btn btn-primary" onclick="exportPDF()"><i class="bi bi-file-pdf"></i> ייצוא PDF</button>
+        <span class="ms-auto small text-muted" id="saveStatus"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI helpers column -->
+  <div class="col-lg-4">
+    <div class="card shadow-sm mb-3">
+      <div class="card-header bg-primary text-white"><i class="bi bi-stars"></i> עוזר AI (Gemini)</div>
+      <div class="card-body">
+        <button class="btn btn-outline-primary w-100 mb-2" onclick="aiAction('proofread')"><i class="bi bi-check2-circle"></i> הגה"ה</button>
+        <button class="btn btn-outline-primary w-100 mb-2" onclick="aiAction('shorten')"><i class="bi bi-arrows-collapse"></i> קיצור</button>
+        <button class="btn btn-outline-primary w-100 mb-2" onclick="aiAction('expand')"><i class="bi bi-arrows-expand"></i> הרחבה</button>
+        <button class="btn btn-outline-primary w-100 mb-2" onclick="aiAction('suggest_photos')"><i class="bi bi-image"></i> הצעות לאילוסטרציה</button>
+        <button class="btn btn-outline-primary w-100 mb-2" onclick="aiAction('catchy_title')"><i class="bi bi-megaphone"></i> כותרת קליטה</button>
+        <button class="btn btn-outline-primary w-100" onclick="aiAction('to_audio')"><i class="bi bi-headphones"></i> קריא לאודיו (לקו)</button>
+      </div>
+    </div>
+
+    <div class="card shadow-sm mb-3">
+      <div class="card-header"><i class="bi bi-people"></i> עורכים פעילים</div>
+      <div class="card-body" id="collaborators"><small class="text-muted">טוען...</small></div>
+    </div>
+
+    <div class="card shadow-sm">
+      <div class="card-header"><i class="bi bi-clock-history"></i> היסטוריית שינויים</div>
+      <div class="card-body" id="history"><small class="text-muted">טוען...</small></div>
+    </div>
+  </div>
+</div>
+</main>
+
+<!-- AI suggestion modal -->
+<div class="modal fade" id="aiModal" tabindex="-1">
+<div class="modal-dialog modal-lg modal-dialog-scrollable">
+<div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">הצעת AI</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+  <div class="modal-body" id="aiResult"><div class="spinner-border"></div></div>
+  <div class="modal-footer">
+    <button class="btn btn-secondary" data-bs-dismiss="modal">סגור</button>
+    <button class="btn btn-success" onclick="applyAi()">החלף בכתבה</button>
+  </div>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/editor.js"></script>
+</body>
+</html>
