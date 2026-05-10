@@ -2,7 +2,7 @@
 // All Drive + Gemini operations happen on Google's servers, bypassing NetFree.
 
 const API_URL = localStorage.getItem('NEWSLETTER_API') ||
-  'https://script.google.com/macros/s/REPLACE_WITH_DEPLOYMENT_ID/exec';
+  'https://script.google.com/macros/s/AKfycbyriqX3ZYwVnJLwSwPnTeziPnuiEOkm8EBQJXzw587g7Ptv6VQjF01afU9vSphDHZK_/exec';
 const API_TOKEN = localStorage.getItem('NEWSLETTER_TOKEN') || 'BHT_NEWSLETTER_2026';
 
 async function api(action, params = {}) {
