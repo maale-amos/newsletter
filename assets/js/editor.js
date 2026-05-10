@@ -13,6 +13,21 @@ function insertImagePlaceholder() {
 
 async function init() {
   await loadData();
+  // If launched with ?seed=1 — pre-fill from a suggestion stashed in localStorage
+  if (new URLSearchParams(location.search).get('seed') === '1') {
+    try {
+      const seed = JSON.parse(localStorage.getItem('newsletter_seed') || '{}');
+      if (seed && seed.title) {
+        document.getElementById('title').value = seed.title;
+        document.getElementById('category').value = seed.category || '';
+        document.getElementById('body').innerHTML =
+          (seed.outline ? '<h3>תוכן עניינים מוצע</h3>' + seed.outline : '') +
+          (seed.draft ? '<hr>' + seed.draft : '');
+        localStorage.removeItem('newsletter_seed');
+        toast('טעון מהצעת AI', 'info');
+      }
+    } catch {}
+  }
   if (currentId) {
     const a = getArticle(currentId);
     if (a) {
