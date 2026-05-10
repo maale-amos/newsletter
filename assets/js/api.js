@@ -83,24 +83,28 @@ function toast(msg, type = 'info') {
   setTimeout(() => t.remove(), 3500);
 }
 
-// Gemini direct — uses Yosef's pre-provided key by default
-const DEFAULT_GEMINI_KEY = 'AIzaSyBCnR51JT8mp2_f9j8-OBq5jth-xbXydyI';
-async function geminiAssist(prompt, text) {
-  const key = (_data && _data.settings && _data.settings.geminiKey) || DEFAULT_GEMINI_KEY;
-  const fullPrompt = prompt + '\n\n' + text;
+// Local AI: calls Claude Code on Yosef's PC via http://localhost:47831
+// Browsers treat localhost as secure context, so https github.io can call it.
+const LOCAL_AI_URL = 'http://localhost:47831';
+async function geminiAssist(prompt, text, kindHint) {
+  // kindHint maps to a server-side prompt template (proofread/shorten/expand/...)
+  const kind = kindHint || (
+    /קצר|קיצור/.test(prompt) ? 'shorten' :
+    /הרחב|הרחבה/.test(prompt) ? 'expand' :
+    /הצע.*כותר/.test(prompt) ? 'catchy_title' :
+    /הצע.*תמונ|איל/.test(prompt) ? 'suggest_photos' :
+    'proofread');
   try {
-    const r = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`,
-      { method: 'POST', headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({ contents: [{ parts: [{ text: fullPrompt }] }] }) });
-    if (!r.ok) {
-      const errBody = await r.text();
-      throw new Error('HTTP ' + r.status + ': ' + errBody.substring(0, 200));
-    }
+    const r = await fetch(`${LOCAL_AI_URL}/assist`, {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ kind, text }),
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json();
-    return j.candidates?.[0]?.content?.parts?.[0]?.text || null;
+    if (!j.ok) throw new Error(j.error || 'failed');
+    return j.result;
   } catch (e) {
-    toast('שגיאת AI: ' + e.message, 'error');
+    toast('שגיאת AI מקומי: ' + e.message + ' (האם השרת רץ במחשב?)', 'error');
     return null;
   }
 }
