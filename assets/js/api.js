@@ -45,7 +45,7 @@ async function loadData() {
 
 function getArticles() { return _data.articles; }
 function getArticle(id) { return _data.articles.find(a => a.id === id); }
-function saveArticle(article) {
+function dataSaveArticle(article) {
   if (!article.id) article.id = 'a_' + Date.now();
   article.modified = new Date().toISOString();
   const i = _data.articles.findIndex(a => a.id === article.id);

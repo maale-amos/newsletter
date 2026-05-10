@@ -49,7 +49,7 @@ async function saveArticleNow() {
     preview: document.getElementById('body').innerText.substring(0, 200),
     author: 'יוסף',
   };
-  const saved = saveArticle(article);
+  const saved = dataSaveArticle(article);
   if (!currentId) {
     currentId = saved.id;
     history.replaceState(null, '', `editor.html?id=${saved.id}`);
@@ -104,7 +104,11 @@ function exportPDF() {
             document.getElementById('body').innerHTML);
 }
 
-// Backwards-compat alias used by HTML buttons
 window.saveArticle = saveArticleNow;
+window.format = format;
+window.insertImagePlaceholder = insertImagePlaceholder;
+window.aiAction = aiAction;
+window.applyAi = applyAi;
+window.exportPDF = exportPDF;
 
 init();
