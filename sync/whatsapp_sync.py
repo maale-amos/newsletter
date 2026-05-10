@@ -20,7 +20,7 @@ LOG_FILE = os.path.join(HERE, '_sync.log')
 CHAT_NAME = 'מעלה 2026'
 WA_API = 'http://localhost:47830'
 GEMINI_KEY = 'AIzaSyBCnR51JT8mp2_f9j8-OBq5jth-xbXydyI'
-GEMINI_MODEL = 'gemini-2.0-flash-exp'
+GEMINI_MODEL = 'gemini-2.0-flash'
 POLL_SECS = 300
 
 os.makedirs(DATA_DIR, exist_ok=True)

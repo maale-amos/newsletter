@@ -1,0 +1,114 @@
+token ok
+using existing root: 113x3vo_WLL2mrhvHa7_J_uQUkVFRdMiS
+subfolders ready: ['photos', 'docs', 'voice', 'videos']
+  [1] photos: IMG-20260430-WA0056.jpg
+  [2] photos: IMG-20260430-WA0077.jpg
+  [3] photos: IMG-20260430-WA0080.jpg
+  [4] photos: IMG-20260430-WA0081.jpg
+  [5] photos: IMG-20260430-WA0082.jpg
+  [6] photos: IMG-20260430-WA0084.jpg
+  [7] photos: IMG-20260430-WA0085.jpg
+  [8] photos: IMG-20260430-WA0086.jpg
+  [9] photos: IMG-20260430-WA0175.jpg
+  [10] photos: IMG-20260430-WA0182.jpg
+  [11] photos: IMG-20260430-WA0183.jpg
+  [12] photos: IMG-20260430-WA0184.jpg
+  [13] photos: IMG-20260430-WA0185.jpg
+  [14] photos: IMG-20260430-WA0193.jpg
+  [15] photos: IMG-20260430-WA0194.jpg
+  [16] photos: IMG-20260430-WA0195.jpg
+  [17] photos: IMG-20260504-WA0159.jpg
+  [18] photos: IMG-20260504-WA0160.jpg
+  [19] photos: IMG-20260504-WA0161.jpg
+  [20] photos: IMG-20260504-WA0162.jpg
+  [21] photos: IMG-20260504-WA0163.jpg
+  [22] photos: IMG-20260504-WA0164.jpg
+  [23] photos: IMG-20260504-WA0165.jpg
+  [24] photos: IMG-20260504-WA0166.jpg
+  [25] photos: IMG-20260504-WA0167.jpg
+  [26] photos: IMG-20260504-WA0168.jpg
+  [27] photos: IMG-20260504-WA0169.jpg
+  [28] photos: IMG-20260504-WA0170.jpg
+  [29] photos: IMG-20260504-WA0173.jpg
+  [30] photos: IMG-20260504-WA0174.jpg
+  [31] photos: IMG-20260504-WA0175.jpg
+  [32] photos: IMG-20260505-WA0000.jpg
+  [33] photos: IMG-20260505-WA0004.jpg
+  [34] photos: IMG-20260505-WA0005.jpg
+  [35] photos: IMG-20260505-WA0006.jpg
+  [36] photos: IMG-20260506-WA0037.jpg
+  [37] photos: IMG-20260506-WA0038.jpg
+  [38] photos: IMG-20260507-WA0030.jpg
+  [39] docs: MA1011-12RAV A04 03.02.2026 (1).pdf
+  [40] voice: PTT-20260224-WA0053.opus
+transcribe err C:\Users\יוסף שניידר\maale-newsletter\sync\_export\PTT-20260224-WA0053.opus: Command '['C:\\whisper\\bin\\Release\\whisper-cli.exe', '-m', 'C:\\whisper\\ggml-medium.bin', '-l', 'he', '-nt', '-f', 'C:\\Users\\יוסף שניידר\\maale-newsletter\\sync\\_export\\PTT-20260224-WA0053_tmp.wav']' timed out after 120 seconds
+    transcribed: 
+  [41] voice: PTT-20260315-WA0061.opus
+    transcribed: בין מעלי המוסלי והנחל התחילו עבודות של משרד הביטחון להקמת הא
+  [42] voice: PTT-20260315-WA0062.opus
+    transcribed: 
+  [43] voice: PTT-20260315-WA0065.opus
+    transcribed: בן חס מדובר טיפה צפונית לצירישאי בצד השני של איפה שהביוב. זא
+  [44] voice: PTT-20260317-WA0080.opus
+    transcribed: לא לא אם זה רק רפשת הישוב זה לא נשמע טוב חייבו שורה של תושבי
+  [45] voice: PTT-20260320-WA0035.opus
+    transcribed: הבעיה היא שאני דווקא הייתי רוצה לעקוץ את המועצה שהם שמו את ז
+  [46] voice: PTT-20260320-WA0036.opus
+    transcribed: לא יודע כמה אני רוצה לפרגן ללילך אחרי שביקשתם מנה לפני חודשן
+  [47] voice: PTT-20260320-WA0037.opus
+    transcribed: זה באמת לא קשור אליו.
+  [48] voice: PTT-20260320-WA0050.opus
+transcribe err C:\Users\יוסף שניידר\maale-newsletter\sync\_export\PTT-20260320-WA0050.opus: Command '['C:\\whisper\\bin\\Release\\whisper-cli.exe', '-m', 'C:\\whisper\\ggml-medium.bin', '-l', 'he', '-nt', '-f', 'C:\\Users\\יוסף שניידר\\maale-newsletter\\sync\\_export\\PTT-20260320-WA0050_tmp.wav']' timed out after 120 seconds
+    transcribed: 
+  [49] voice: PTT-20260325-WA0116.opus
+    transcribed: יש למישהו לשלוח תמונה מהסיום שהיה? תמונה שרואים את הרב, שולח
+  [50] voice: PTT-20260326-WA0138.opus
+    transcribed: הרבנית החליטה שאין השנה שביש של פסח שכל האיש הוא ביחד וממש ה
+  [51] voice: PTT-20260327-WA0067.opus
+    transcribed: השבוע שמעתי סיפור, מישהו מספר לי לטומו שהבבסאלה הגיעה למעלה 
+  [52] voice: PTT-20260327-WA0068.opus
+    transcribed: בדרך נגמר הדלק, אבא וסלי אמר את הצניעה והם נסעו על האוויר
+  [53] voice: PTT-20260327-WA0069.opus
+    transcribed: אם יש למישהו כך אני יכול לתת לכם את המספר של מי שסיפר את הסי
+  [54] voice: PTT-20260327-WA0070.opus
+    transcribed: ויש תמונות של החשמל השבוע עבדו חזק מאוד על תשתיות חשמל
+  [55] voice: PTT-20260416-WA0010.opus
+    transcribed: עברתי שם היום בבוקר לא ראיתי שעובדים, אתמול שחזרתי בהצהרה הם
+  [56] voice: PTT-20260416-WA0011.opus
+    transcribed: כן יש טרקטור שעובד והיא בהנחה, נורא מוצאים כביש ביטחון חדש ש
+  [57] voice: PTT-20260501-WA0065.opus
+transcribe err C:\Users\יוסף שניידר\maale-newsletter\sync\_export\PTT-20260501-WA0065.opus: Command '['C:\\whisper\\bin\\Release\\whisper-cli.exe', '-m', 'C:\\whisper\\ggml-medium.bin', '-l', 'he', '-nt', '-f', 'C:\\Users\\יוסף שניידר\\maale-newsletter\\sync\\_export\\PTT-20260501-WA0065_tmp.wav']' timed out after 120 seconds
+    transcribed: 
+  [58] voice: PTT-20260506-WA0039.opus
+    transcribed: אם יש לך מדפסת לת מימד ויש לך תוכניות אז הכסף שאתה משקיע בזה
+  [59] photos: STK-20251021-WA0029.webp
+  [60] videos: VID-20260504-WA0171.mp4
+  [61] videos: VID-20260504-WA0172.mp4
+  [62] videos: VID-20260505-WA0001.mp4
+  [63] videos: VID-20260505-WA0002.mp4
+  [64] videos: VID-20260505-WA0003.mp4
+  [65] docs: איראן.pdf
+  [66] docs: אלמיניה.docx
+  [67] docs: בדיקה שער.pdf
+  [68] docs: בינה.pdf
+  [69] docs: הגעלת כלים.pdf
+  [70] docs: היערכות להגנה ברשויות- רידוד סד״כ ההגמ״ר.pdf
+  [71] docs: הכשרת מחנכות מטפלות גוש עציון.pdf
+  ERR חוברת חורף מעלה עמוס_3.pdf: <urlopen error The operation did not complete (write) (_ssl.c:2427)>
+  [72] docs: יוצרות בקליק לעתון.pdf
+  [73] docs: יוצרות בקליק.pdf
+  [74] docs: יוצרים וחוקרים.pdf
+  [75] docs: כתבת עדכון על הפרוייקט של חלפ.pdf
+  [76] docs: מודעה קורס הנהגות-1.pdf
+  [77] docs: מיהו הישוב.pdf
+  [78] docs: מיצד 2 עמודים.pdf
+  [79] docs: מצגת פתרונות למרחב האורבני.pdf
+  [80] docs: עיתון פורים.pdf
+  [81] docs: עמוד שער.pdf
+  [82] docs: פינת הסטטיקסטיקה.pdf
+  [83] docs: ראיון עם איתן.pdf
+  [84] docs: ראיון פינקלשטיין-1.pdf
+  [85] docs: ראיון פינקלשטיין.pdf
+  [86] docs: תעסוקה נשים _2.pdf
+  [87] docs: תקנון ספריה.pdf
+done. 167 files on Drive, 19 transcripts.
