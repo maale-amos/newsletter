@@ -32,19 +32,28 @@ def log(msg):
     except Exception: pass
 
 
+WEBHOOK_URL = ('https://script.google.com/macros/s/'
+               'AKfycbzhRqTLE4fjjDqrH1we-JlGZ15R-ws8b_gfWF1xF1ewailaiyiS_YXqUhRtb3cQghVt/exec')
+WEBHOOK_TOKEN = 'BHT_AGENT_2026'
+
+
 def claude_call(prompt, timeout=TIMEOUT):
-    """Call claude.cmd with the prompt, return text answer."""
-    cmd = [CLAUDE_BIN, '-p', '--permission-mode', 'bypassPermissions',
-           '--model', 'claude-haiku-4-5', '--output-format', 'text', prompt]
+    """Route to the existing voiceAsk webhook. Apps Script there uses
+    Yosef's Claude OAuth — no quota issues, perfect Hebrew handling."""
+    import urllib.request, urllib.parse
+    qs = urllib.parse.urlencode({
+        'action': 'voiceAsk',
+        'token': WEBHOOK_TOKEN,
+        'q': prompt[:8000],
+    })
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True,
-                          timeout=timeout, encoding='utf-8', errors='ignore')
-        return (r.stdout or '').strip()
-    except subprocess.TimeoutExpired:
-        log(f'timeout after {timeout}s')
+        with urllib.request.urlopen(f'{WEBHOOK_URL}?{qs}', timeout=timeout) as r:
+            j = json.loads(r.read())
+        if j.get('ok'):
+            return (j.get('answer') or '').strip()
         return ''
     except Exception as e:
-        log(f'claude err: {e}')
+        log(f'webhook err: {e}')
         return ''
 
 
