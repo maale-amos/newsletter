@@ -164,17 +164,26 @@ def sync_once():
     except Exception as e:
         log(f'suggestions err: {e}')
 
-    # Commit to git
+    # Commit to git — with lock + pull-rebase to prevent races (BUG #5)
+    lock = os.path.join(REPO_DIR, '.git_push_lock')
+    if os.path.exists(lock) and (time.time() - os.path.getmtime(lock)) < 300:
+        log('git lock active, skipping push this cycle')
+        return new_count
     try:
+        with open(lock, 'w') as f: f.write(str(time.time()))
+        subprocess.run(['git', '-C', REPO_DIR, 'pull', '--rebase'], capture_output=True, timeout=30)
         subprocess.run(['git', '-C', REPO_DIR, 'add', 'data/feed.json', 'data/suggestions.json'],
                        capture_output=True, timeout=20)
         r = subprocess.run(['git', '-C', REPO_DIR, 'commit', '-m', f'sync: +{new_count} items'],
                            capture_output=True, text=True, timeout=20)
         if 'nothing to commit' not in (r.stdout + r.stderr).lower():
-            subprocess.run(['git', '-C', REPO_DIR, 'push'], capture_output=True, timeout=60)
+            subprocess.run(['git', '-C', REPO_DIR, 'push'], capture_output=True, timeout=120)
             log('pushed to repo')
     except Exception as e:
         log(f'git err: {e}')
+    finally:
+        try: os.remove(lock)
+        except: pass
     return new_count
 
 

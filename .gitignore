@@ -1,0 +1,31 @@
+# Secrets / credentials (BUG #4: prevent push protection blocks)
+*.creds.*
+.env
+.env.local
+*_token*
+*_oauth*
+.sip_creds.json
+
+# Sync artifacts (kept local, never pushed)
+sync/_export/
+sync/__pycache__/
+sync/_drive_map.json
+sync/_drive_upload*.log
+sync/_drive_upload*.err.log
+sync/_sync.log
+sync/_sync_state.json
+sync/_local_ai.log
+sync/retag_existing.py
+sync/finalize.py
+sync/import_export.py
+sync/drive_upload.py
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
