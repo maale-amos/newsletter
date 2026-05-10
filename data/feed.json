@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3a45330778b6c2b5",
+      "time": 1778442288,
+      "time_iso": "2026-05-10T22:44:48",
+      "from_me": false,
+      "text": "וועדת גיזום בפעולה",
+      "links": [],
+      "has_media": false,
+      "summary": "וועדת גיזום בפעולה",
+      "tags": [],
+      "category": "אחר"
+    },
+    {
       "id": "8b48b93a1fa5f87d",
       "time": 1778441547,
       "time_iso": "2026-05-10T22:32:27",
@@ -6600,18 +6612,7 @@
       "tags": [],
       "category": "",
       "summary": ""
-    },
-    {
-      "id": "a19f3c5872f8bf1b",
-      "time_iso": "2026-02-26T1:29:00",
-      "time": 1772062140,
-      "sender": "יופה פנחס (רבש\"ץ)",
-      "text": "<המדיה לא נכללה>",
-      "attachments": [],
-      "tags": [],
-      "category": "",
-      "summary": ""
     }
   ],
-  "updated": "2026-05-10T22:35:17"
+  "updated": "2026-05-10T22:45:23"
 }
