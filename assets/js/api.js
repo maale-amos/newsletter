@@ -83,21 +83,20 @@ function toast(msg, type = 'info') {
   setTimeout(() => t.remove(), 3500);
 }
 
-// Optional: Gemini direct (user's own API key, saved to localStorage)
+// Gemini direct — uses Yosef's pre-provided key by default
+const DEFAULT_GEMINI_KEY = 'AIzaSyBCnR51JT8mp2_f9j8-OBq5jth-xbXydyI';
 async function geminiAssist(prompt, text) {
-  const key = _data.settings.geminiKey || prompt_('הזן Gemini API key (חד-פעמי, נשמר מקומית):');
-  if (!key) return null;
-  if (!_data.settings.geminiKey) {
-    _data.settings.geminiKey = key;
-    saveStored();
-  }
+  const key = (_data && _data.settings && _data.settings.geminiKey) || DEFAULT_GEMINI_KEY;
   const fullPrompt = prompt + '\n\n' + text;
   try {
     const r = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`,
       { method: 'POST', headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ contents: [{ parts: [{ text: fullPrompt }] }] }) });
-    if (!r.ok) throw new Error('HTTP ' + r.status);
+    if (!r.ok) {
+      const errBody = await r.text();
+      throw new Error('HTTP ' + r.status + ': ' + errBody.substring(0, 200));
+    }
     const j = await r.json();
     return j.candidates?.[0]?.content?.parts?.[0]?.text || null;
   } catch (e) {
@@ -105,7 +104,6 @@ async function geminiAssist(prompt, text) {
     return null;
   }
 }
-function prompt_(msg) { return prompt(msg); }
 
 // PDF export via browser print (most reliable, no library)
 function exportPdf(title, html) {
