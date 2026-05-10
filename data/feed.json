@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "id": "8b48b93a1fa5f87d",
+      "time": 1778441547,
+      "time_iso": "2026-05-10T22:32:27",
+      "from_me": false,
+      "text": "",
+      "links": [],
+      "has_media": false,
+      "summary": "",
+      "tags": [],
+      "category": "אחר"
+    },
+    {
+      "id": "0d72da47c678a656",
+      "time": 1778441546,
+      "time_iso": "2026-05-10T22:32:26",
+      "from_me": false,
+      "text": "",
+      "links": [],
+      "has_media": false,
+      "summary": "",
+      "tags": [],
+      "category": "אחר"
+    },
+    {
+      "id": "5151d0460a913064",
+      "time": 1778441526,
+      "time_iso": "2026-05-10T22:32:06",
+      "from_me": false,
+      "text": "",
+      "links": [],
+      "has_media": false,
+      "summary": "",
+      "tags": [],
+      "category": "אחר"
+    },
+    {
       "id": "7f722d8d38d6f5df",
       "time": 1778419630,
       "time_iso": "2026-05-10T16:27:10",
@@ -6575,40 +6611,7 @@
       "tags": [],
       "category": "",
       "summary": ""
-    },
-    {
-      "id": "a19f3c5872f8bf1b",
-      "time_iso": "2026-02-26T1:29:00",
-      "time": 1772062140,
-      "sender": "יופה פנחס (רבש\"ץ)",
-      "text": "<המדיה לא נכללה>",
-      "attachments": [],
-      "tags": [],
-      "category": "",
-      "summary": ""
-    },
-    {
-      "id": "a19f3c5872f8bf1b",
-      "time_iso": "2026-02-26T1:29:00",
-      "time": 1772062140,
-      "sender": "יופה פנחס (רבש\"ץ)",
-      "text": "<המדיה לא נכללה>",
-      "attachments": [],
-      "tags": [],
-      "category": "",
-      "summary": ""
-    },
-    {
-      "id": "a19f3c5872f8bf1b",
-      "time_iso": "2026-02-26T1:29:00",
-      "time": 1772062140,
-      "sender": "יופה פנחס (רבש\"ץ)",
-      "text": "<המדיה לא נכללה>",
-      "attachments": [],
-      "tags": [],
-      "category": "",
-      "summary": ""
     }
   ],
-  "updated": "2026-05-10T16:29:48"
+  "updated": "2026-05-10T22:35:17"
 }
