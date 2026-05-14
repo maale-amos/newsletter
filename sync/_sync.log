@@ -205,3 +205,497 @@
 [2026-05-10 12:19:33] suggestions.json updated with 0 ideas
 [2026-05-10 13:01:06] git err: Command '['git', '-C', 'C:\\Users\\יוסף שניידר\\maale-newsletter', 'push']' timed out after 60 seconds
 [2026-05-10 13:40:25] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-10 14:16:54] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-10 14:59:40] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-10 16:29:48] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-10 16:29:48] + אחר | *דרושים משגיחי כשרות למועצה הדתית גוש עציון*
+
+לפרטים נוספים: | tags=[]
+[2026-05-10 16:29:48] feed.json updated with 1 new items (total 500)
+[2026-05-10 16:29:50] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-10 16:29:50] suggestions.json updated with 0 ideas
+[2026-05-10 16:29:54] pushed to repo
+[2026-05-10 22:35:17] + אחר |  | tags=[]
+[2026-05-10 22:35:17] + אחר |  | tags=[]
+[2026-05-10 22:35:17] + אחר |  | tags=[]
+[2026-05-10 22:35:17] feed.json updated with 3 new items (total 500)
+[2026-05-10 22:35:18] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-10 22:35:18] suggestions.json updated with 0 ideas
+[2026-05-10 22:35:22] pushed to repo
+[2026-05-10 22:45:23] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-10 22:45:23] + אחר | וועדת גיזום בפעולה | tags=[]
+[2026-05-10 22:45:23] feed.json updated with 1 new items (total 500)
+[2026-05-10 22:45:24] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-10 22:45:24] suggestions.json updated with 0 ideas
+[2026-05-10 22:45:28] pushed to repo
+[2026-05-11 10:51:15] + אחר |  | tags=[]
+[2026-05-11 10:51:15] + אחר |  | tags=[]
+[2026-05-11 10:51:15] feed.json updated with 2 new items (total 500)
+[2026-05-11 10:51:17] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-11 10:51:17] suggestions.json updated with 0 ideas
+[2026-05-11 10:51:21] pushed to repo
+[2026-05-11 11:01:23] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-11 11:01:23] + אחר | צריך כתבה על מצוקת הגנים הצפויה לשנה הבאה, לציין את המאמצים  | tags=[]
+[2026-05-11 11:01:23] feed.json updated with 1 new items (total 500)
+[2026-05-11 11:01:24] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-11 11:01:24] suggestions.json updated with 0 ideas
+[2026-05-11 11:01:28] pushed to repo
+[2026-05-11 11:06:30] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-11 11:06:30] + אחר | ומה עם עבודות הפיתוח בשכונת פסגת עמוס? | tags=[]
+[2026-05-11 11:06:30] feed.json updated with 1 new items (total 500)
+[2026-05-11 11:06:31] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-11 11:06:31] suggestions.json updated with 0 ideas
+[2026-05-11 11:06:37] pushed to repo
+[2026-05-11 12:21:43] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 12:26:43] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 12:36:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 12:41:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 12:46:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 12:51:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 12:56:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:01:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:06:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:11:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:16:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:21:44] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:26:48] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 13:31:49] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 13:36:53] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 13:41:57] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 13:47:01] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 13:52:06] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 13:57:10] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:02:14] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:07:18] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:12:22] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:17:26] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:22:30] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:27:34] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:32:38] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:37:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:42:46] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-11 14:47:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 14:52:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 14:57:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:02:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:07:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:12:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:17:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:22:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:27:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:32:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:37:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:42:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:47:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:52:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 15:57:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:02:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:07:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:12:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:17:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:22:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:27:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:32:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:37:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:42:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:47:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:52:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 16:57:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:02:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:07:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:12:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:17:46] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 17:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 18:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 19:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 20:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 21:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 22:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:47:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:52:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-11 23:57:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:02:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:07:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:12:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:17:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:22:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:27:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:32:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:37:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:42:47] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:52:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 00:57:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:02:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:07:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:12:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:17:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:22:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:27:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:32:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:37:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:42:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:52:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 01:57:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:02:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:07:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:12:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:17:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:22:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:27:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:32:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:37:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:42:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:52:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 02:57:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:02:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:07:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:12:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:17:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:22:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:27:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:32:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:37:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:42:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:52:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 03:57:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:02:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:07:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:12:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:17:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:22:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:27:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:32:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:37:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:42:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:52:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 04:57:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:02:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:07:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:12:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:17:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:22:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:27:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:32:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:37:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:42:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:52:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 05:57:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:02:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:07:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:12:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:17:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:22:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:27:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:32:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:37:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:42:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:47:48] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:52:49] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 06:57:49] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:02:49] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:06:35] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:06:35] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:07:49] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:08:39] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:08:39] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:10:53] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:10:53] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:11:35] fetch err: HTTP Error 503: Service Unavailable
+[2026-05-12 07:12:54] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:13:14] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:13:18] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:13:44] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:15:33] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:15:38] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:15:58] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:16:40] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:17:46] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:17:51] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:17:59] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:18:23] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:18:48] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:19:57] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:20:02] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:20:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:21:03] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:21:45] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:22:13] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:22:18] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:22:56] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:23:04] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:23:28] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:23:53] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:24:32] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:24:36] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:25:06] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:25:47] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:26:07] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:26:45] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:26:49] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:26:50] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:27:22] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:28:01] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:28:08] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:28:32] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:28:57] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:29:03] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:29:08] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:29:41] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:30:11] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:30:52] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:31:12] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:31:22] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:31:27] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:31:54] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:31:54] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:32:27] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:33:06] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:33:13] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:33:37] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:33:37] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:33:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:34:02] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:34:12] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:34:46] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:35:16] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:35:54] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:35:56] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:35:59] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:36:17] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:36:32] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:36:59] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:36:59] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:37:32] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:38:10] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:38:15] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:38:18] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:38:19] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:38:41] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:38:47] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:39:07] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:39:17] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:39:50] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:40:21] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:40:30] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:40:34] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:41:01] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:41:04] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:41:21] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:41:36] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:42:03] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:42:04] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:42:36] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:42:44] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:42:48] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:43:15] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:43:22] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:43:24] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:43:46] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:43:51] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:44:11] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:44:21] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:44:55] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:44:58] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:45:03] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:45:27] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:45:40] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:46:06] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:46:09] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:46:26] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:46:41] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:47:08] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:47:09] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:47:28] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:47:33] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:47:41] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:47:53] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:48:19] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:48:27] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:48:28] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:48:51] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:48:56] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:49:16] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:49:23] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:49:26] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:49:28] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:50:00] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:50:11] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:50:33] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:50:44] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:51:11] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:51:13] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:51:31] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:51:38] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:51:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:51:46] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:52:12] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:52:14] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:52:38] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:52:46] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:52:57] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:53:24] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:53:31] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:53:33] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:53:55] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:53:55] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:54:00] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:54:01] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:54:21] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:54:30] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:54:33] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:55:05] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:55:15] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:55:37] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:55:49] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:56:06] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:56:11] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:56:16] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:56:18] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:56:36] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:56:47] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:56:50] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:57:17] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:57:18] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:57:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:57:50] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:58:02] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:58:21] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 07:58:26] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:58:28] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:58:36] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:58:37] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:59:00] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:59:04] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:59:06] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:59:26] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:59:35] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 07:59:37] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:00:09] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:00:20] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:00:37] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 08:00:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:00:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:00:53] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:01:16] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:01:20] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:01:23] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:01:40] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:01:51] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:01:55] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:02:22] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:02:23] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:02:47] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:02:55] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:02:55] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 08:03:00] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:03:07] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:03:31] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:03:33] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:03:40] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:03:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:04:05] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:04:09] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:04:10] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:04:30] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:04:40] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:04:42] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:05:09] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 08:05:14] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:05:14] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:05:25] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:05:46] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:05:47] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:05:58] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:06:20] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:06:25] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 08:06:27] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 12:48:52] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 12:48:57] fetch err: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2026-05-12 12:52:24] whatsapp_sync starting — chat: מעלה 2026, poll 300s
+[2026-05-12 12:52:26] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-12 12:52:26] + אחר | מצגת פתרונות למרחב האורבני.pdf | tags=[]
+[2026-05-12 12:52:28] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-12 12:52:28] + אחר | נקבע סיור בעוד שבועים עם נציגי חברת פלאפון ואגף הנדסה לבחינת | tags=[]
+[2026-05-12 12:52:30] gemini err: HTTP Error 429: Too Many Requests
+[2026-05-12 12:52:30] + אחר | לכתוב על בסיס זה אבל להשתמש בחומר עצמו @174921267323048 | tags=[]
+[2026-05-12 12:52:30] feed.json updated with 3 new items (total 500)
+[2026-05-12 12:52:32] gemini suggestions err: HTTP Error 429: Too Many Requests
+[2026-05-12 12:52:32] suggestions.json updated with 0 ideas
+[2026-05-12 12:52:38] pushed to repo

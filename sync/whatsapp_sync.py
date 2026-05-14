@@ -6,7 +6,7 @@ For new messages: classify with Gemini, save photos as files, commit JSON.
 The frontend GitHub Pages site reads data/feed.json + photos/ + drafts.json
 and displays a live mirror of the group with AI-tagged search.
 """
-import os, sys, json, time, base64, hashlib
+import os, sys, json, time, base64, hashlib, random
 import urllib.request, urllib.parse, urllib.error
 import subprocess
 
@@ -64,7 +64,7 @@ def fetch_messages():
 def gemini_classify(text):
     """Return tags + summary (Hebrew). One sentence summary, 3-6 tags."""
     if not text or len(text.strip()) < 5:
-        return {'summary': text[:200], 'tags': []}
+        return {'summary': text[:200], 'tags': [], 'category': 'אחר'}
     prompt = (
         'תייג ותסכם את ההודעה הבאה בעברית. החזר JSON תקין בלבד עם:\n'
         '  summary: משפט אחד מתאר את ההודעה\n'
@@ -72,22 +72,17 @@ def gemini_classify(text):
         '  category: אחד מ: כתבה, תמונות, מסמך, שאלה, תיאום, אחר\n\n'
         f'ההודעה:\n{text[:1000]}\n\nJSON בלבד:'
     )
-    url = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}'
+    out = call_gemini_with_retry(prompt, max_retries=3, is_json=False)
+    if not out:
+        return {'summary': text[:200], 'tags': [], 'category': 'אחר'}
     try:
-        data = json.dumps({'contents': [{'parts': [{'text': prompt}]}]}).encode()
-        req = urllib.request.Request(url, data=data, method='POST',
-                                     headers={'Content-Type': 'application/json'})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            j = json.loads(r.read())
-        out = j['candidates'][0]['content']['parts'][0]['text']
-        # Extract JSON from response (may be wrapped in ```json...```)
         out = out.strip()
         if out.startswith('```'):
             out = out.split('```')[1]
             if out.startswith('json'): out = out[4:]
         return json.loads(out.strip())
     except Exception as e:
-        log(f'gemini err: {e}')
+        log(f'gemini parse err: {e}')
         return {'summary': text[:200], 'tags': [], 'category': 'אחר'}
 
 
@@ -105,6 +100,37 @@ def detect_links(text):
         elif 'youtube.com' in url or 'youtu.be' in url: kind = 'video'
         links.append({'url': url, 'kind': kind})
     return links
+
+
+def call_gemini_with_retry(prompt, max_retries=3, is_json=False):
+    """Call Gemini API with exponential backoff for rate limits."""
+    for attempt in range(max_retries):
+        try:
+            url = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}'
+            config = {}
+            if is_json:
+                config = {'generationConfig': {'response_mime_type': 'application/json'}}
+            payload = {'contents': [{'parts': [{'text': prompt}]}]}
+            payload.update(config)
+            data = json.dumps(payload).encode()
+            req = urllib.request.Request(url, data=data, method='POST',
+                                         headers={'Content-Type': 'application/json'})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                j = json.loads(r.read())
+            return j['candidates'][0]['content']['parts'][0]['text']
+        except urllib.error.HTTPError as e:
+            if e.code == 429:  # Rate limit
+                wait = (2 ** attempt) + random.uniform(0, 1)
+                log(f'gemini 429, retry {attempt+1}/{max_retries} in {wait:.1f}s')
+                time.sleep(wait)
+            else:
+                raise
+        except Exception as e:
+            log(f'gemini call err (attempt {attempt+1}): {e}')
+            if attempt == max_retries - 1:
+                return None
+            time.sleep((2 ** attempt) + random.uniform(0, 0.5))
+    return None
 
 
 def sync_once():
@@ -206,22 +232,18 @@ def generate_suggestions(feed):
         'based_on (משפט מסביר על איזו שיחה זה מבוסס).\n\n'
         'החזר JSON תקין בלבד עם מפתח "suggestions" ובו רשימה של 5 הצעות:'
     )
-    url = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}'
+    out = call_gemini_with_retry(prompt, max_retries=2, is_json=True)
+    if not out:
+        return []
     try:
-        data = json.dumps({'contents': [{'parts': [{'text': prompt}]}],
-                           'generationConfig': {'response_mime_type': 'application/json'}}).encode()
-        req = urllib.request.Request(url, data=data, method='POST',
-                                     headers={'Content-Type': 'application/json'})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            j = json.loads(r.read())
-        out = j['candidates'][0]['content']['parts'][0]['text'].strip()
+        out = out.strip()
         if out.startswith('```'):
             out = out.split('```')[1]
             if out.startswith('json'): out = out[4:]
         parsed = json.loads(out.strip())
         return parsed.get('suggestions', [])[:8] if isinstance(parsed, dict) else parsed[:8]
     except Exception as e:
-        log(f'gemini suggestions err: {e}')
+        log(f'gemini suggestions parse err: {e}')
         return []
 
 
